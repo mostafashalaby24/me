@@ -21,6 +21,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
@@ -65,6 +66,46 @@
 			<groupId>org.springframework.restdocs</groupId>
 			<artifactId>spring-restdocs-mockmvc</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.opentracing.contrib</groupId>
+			<artifactId>opentracing-asynchttpclient</artifactId>
+			<version>0.3.3</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.pepegar</groupId>
+			<artifactId>hammock-asynchttpclient_2.13</artifactId>
+			<version>0.11.3</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.pepegar</groupId>
+			<artifactId>hammock-asynchttpclient_2.11</artifactId>
+			<version>0.9.2</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.callumtaylor</groupId>
+			<artifactId>asynchttpclient</artifactId>
+			<version>2.1.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.callumtaylor.asynchttp</groupId>
+			<artifactId>asynchttpclient</artifactId>
+			<version>1.5</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.softwaremill.sttp.client3</groupId>
+			<artifactId>async-http-client-backend_3</artifactId>
+			<version>3.4.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.asynchttpclient</groupId>
+			<artifactId>async-http-client</artifactId>
+			<version>2.12.1</version>
 		</dependency>
 	</dependencies>
 
